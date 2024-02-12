@@ -1,11 +1,11 @@
-FROM httpd:alpine
+FROM httpd:2.4.58-alpine
 
 # These variables are inherited from the httpd:alpine image:
 # ENV HTTPD_PREFIX /usr/local/apache2
 # WORKDIR "$HTTPD_PREFIX"
 
 # Copy in our configuration files.
-COPY conf/ conf/
+COPY conf conf/
 
 RUN set -ex; \
     # Create empty default DocumentRoot.
