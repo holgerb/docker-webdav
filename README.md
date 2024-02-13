@@ -1,21 +1,8 @@
-## Supported tags
-
-* [`2.4`, `latest` (*2.4/Dockerfile*)](https://github.com/BytemarkHosting/docker-webdav/blob/master/2.4/Dockerfile)
+This is a fork from the docker-webdav image/repo from [Bytemark](https://github.com/BytemarkHosting/docker-webdav). 
 
 ## Quick reference
 
 This image runs an easily configurable WebDAV server with Apache.
-
-You can configure the authentication type, the authentication of multiple users, or to run with a self-signed SSL certificate. If you want a Let's Encrypt certificate, see an example of how to do that [here](https://github.com/BytemarkHosting/configs-webdav-docker).
-
-* **Code repository:**
-  https://github.com/BytemarkHosting/docker-webdav
-* **Where to file issues:**
-  https://github.com/BytemarkHosting/docker-webdav/issues
-* **Maintained by:**
-  [Bytemark Hosting](https://www.bytemark.co.uk)
-* **Supported architectures:**
-  [Any architecture that the `httpd` image supports](https://hub.docker.com/_/httpd/)
 
 ## Usage
 
