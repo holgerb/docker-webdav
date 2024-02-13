@@ -46,7 +46,7 @@ RUN printf '%s\n' "Include conf/conf-enabled/*.conf" \
 RUN mkdir -p "conf/conf-enabled"; \
     mkdir -p "conf/sites-enabled"; \
     ln -s ../conf-available/dav.conf "conf/conf-enabled"; \
-    ln -s ../sites-available/default.conf "conf/sites-enabled"; \
+    ln -s ../sites-available/default.conf "conf/sites-enabled";
 
     # Install openssl if we need to generate a self-signed certificate.
 RUN apk add --no-cache openssl
