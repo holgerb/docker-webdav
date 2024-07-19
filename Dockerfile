@@ -1,4 +1,4 @@
-FROM httpd:2.4.61
+FROM httpd:2.4.62
 
 # These variables are inherited from the httpd:alpine image:
 # ENV HTTPD_PREFIX /usr/local/apache2
