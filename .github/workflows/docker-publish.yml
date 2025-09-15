@@ -33,13 +33,13 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       # Install the cosign tool except on PR
       # https://github.com/sigstore/cosign-installer
       - name: Install cosign
         if: github.event_name != 'pull_request'
-        uses: sigstore/cosign-installer@v3.9.2 #v3.4.0
+        uses: sigstore/cosign-installer@v3.10.0 #v3.4.0
 
       # Set up BuildKit Docker container builder to be able to build
       # multi-platform images and export cache
